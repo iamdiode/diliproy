@@ -1,0 +1,47 @@
+[Mon Feb 16 13:01:00.122434 2015] [:error] [pid 20025] [client 180.215.125.89:10351] Target WSGI script not found or unable to stat: /home/ubuntu/projects/diliproy/diliproy/wsgi.py
+[Mon Feb 16 13:01:01.286650 2015] [:error] [pid 20025] [client 180.215.125.89:10351] Target WSGI script not found or unable to stat: /home/ubuntu/projects/diliproy/diliproy/wsgi.py, referer: http://www.diliproy.com/
+[Mon Feb 16 13:01:09.270952 2015] [:error] [pid 20026] [client 180.215.125.89:10238] Target WSGI script not found or unable to stat: /home/ubuntu/projects/diliproy/diliproy/wsgi.py
+[Mon Feb 16 13:04:51.483964 2015] [:error] [pid 20023] Exception ignored in: <module 'threading' from '/usr/lib/python3.4/threading.py'>
+[Mon Feb 16 13:04:51.483999 2015] [:error] [pid 20023] Traceback (most recent call last):
+[Mon Feb 16 13:04:51.484008 2015] [:error] [pid 20023]   File "/usr/lib/python3.4/threading.py", line 1288, in _shutdown
+[Mon Feb 16 13:04:51.488545 2015] [:error] [pid 20023]     assert tlock is not None
+[Mon Feb 16 13:04:51.488562 2015] [:error] [pid 20023] AssertionError: 
+[Mon Feb 16 13:05:37.865932 2015] [:error] [pid 20113] [client 180.215.125.89:10537] Target WSGI script not found or unable to stat: /home/ubuntu/projects/diliproy/diliproy/wsgi.py
+[Mon Feb 16 13:05:42.758372 2015] [:error] [pid 20113] [client 180.215.125.89:10537] Target WSGI script not found or unable to stat: /home/ubuntu/projects/diliproy/diliproy/wsgi.py
+[Mon Feb 16 13:05:52.689815 2015] [:error] [pid 20111] [client 180.215.125.89:11007] Target WSGI script not found or unable to stat: /home/ubuntu/projects/diliproy/diliproy/wsgi.py
+[Mon Feb 16 13:05:53.984694 2015] [:error] [pid 20111] [client 180.215.125.89:11007] Target WSGI script not found or unable to stat: /home/ubuntu/projects/diliproy/diliproy/wsgi.py, referer: http://www.diliproy.com/
+[Mon Feb 16 13:08:09.333654 2015] [:error] [pid 20109] Exception ignored in: <module 'threading' from '/usr/lib/python3.4/threading.py'>
+[Mon Feb 16 13:08:09.333686 2015] [:error] [pid 20109] Traceback (most recent call last):
+[Mon Feb 16 13:08:09.333695 2015] [:error] [pid 20109]   File "/usr/lib/python3.4/threading.py", line 1288, in _shutdown
+[Mon Feb 16 13:08:09.334122 2015] [:error] [pid 20109]     assert tlock is not None
+[Mon Feb 16 13:08:09.334136 2015] [:error] [pid 20109] AssertionError: 
+[Mon Feb 16 13:09:32.872951 2015] [:error] [pid 20190] Exception ignored in: <module 'threading' from '/usr/lib/python3.4/threading.py'>
+[Mon Feb 16 13:09:32.872988 2015] [:error] [pid 20190] Traceback (most recent call last):
+[Mon Feb 16 13:09:32.872998 2015] [:error] [pid 20190]   File "/usr/lib/python3.4/threading.py", line 1288, in _shutdown
+[Mon Feb 16 13:09:32.873438 2015] [:error] [pid 20190]     assert tlock is not None
+[Mon Feb 16 13:09:32.873453 2015] [:error] [pid 20190] AssertionError: 
+[Mon Feb 16 13:09:33.003760 2015] [:error] [pid 20190] Exception ignored in: <module 'threading' from '/usr/lib/python3.4/threading.py'>
+[Mon Feb 16 13:09:33.003789 2015] [:error] [pid 20190] Traceback (most recent call last):
+[Mon Feb 16 13:09:33.003801 2015] [:error] [pid 20190]   File "/usr/lib/python3.4/threading.py", line 1288, in _shutdown
+[Mon Feb 16 13:09:33.004300 2015] [:error] [pid 20190]     assert tlock is not None
+[Mon Feb 16 13:09:33.004314 2015] [:error] [pid 20190] AssertionError: 
+[Mon Feb 16 13:11:26.701327 2015] [:error] [pid 20285] Exception ignored in: <module 'threading' from '/usr/lib/python3.4/threading.py'>
+[Mon Feb 16 13:11:26.701365 2015] [:error] [pid 20285] Traceback (most recent call last):
+[Mon Feb 16 13:11:26.701389 2015] [:error] [pid 20285]   File "/usr/lib/python3.4/threading.py", line 1288, in _shutdown
+[Mon Feb 16 13:11:26.701884 2015] [:error] [pid 20285]     assert tlock is not None
+[Mon Feb 16 13:11:26.701899 2015] [:error] [pid 20285] AssertionError: 
+[Mon Feb 16 13:11:26.823805 2015] [:error] [pid 20285] Exception ignored in: <module 'threading' from '/usr/lib/python3.4/threading.py'>
+[Mon Feb 16 13:11:26.823833 2015] [:error] [pid 20285] Traceback (most recent call last):
+[Mon Feb 16 13:11:26.823843 2015] [:error] [pid 20285]   File "/usr/lib/python3.4/threading.py", line 1288, in _shutdown
+[Mon Feb 16 13:11:26.824309 2015] [:error] [pid 20285]     assert tlock is not None
+[Mon Feb 16 13:11:26.824322 2015] [:error] [pid 20285] AssertionError: 
+[Mon Feb 16 18:23:51.029167 2015] [:error] [pid 20381] Exception ignored in: <module 'threading' from '/usr/lib/python3.4/threading.py'>
+[Mon Feb 16 18:23:51.029207 2015] [:error] [pid 20381] Traceback (most recent call last):
+[Mon Feb 16 18:23:51.029217 2015] [:error] [pid 20381]   File "/usr/lib/python3.4/threading.py", line 1288, in _shutdown
+[Mon Feb 16 18:23:51.029625 2015] [:error] [pid 20381]     assert tlock is not None
+[Mon Feb 16 18:23:51.029639 2015] [:error] [pid 20381] AssertionError: 
+[Mon Feb 16 18:23:51.198423 2015] [:error] [pid 20381] Exception ignored in: <module 'threading' from '/usr/lib/python3.4/threading.py'>
+[Mon Feb 16 18:23:51.198452 2015] [:error] [pid 20381] Traceback (most recent call last):
+[Mon Feb 16 18:23:51.198464 2015] [:error] [pid 20381]   File "/usr/lib/python3.4/threading.py", line 1288, in _shutdown
+[Mon Feb 16 18:23:51.198902 2015] [:error] [pid 20381]     assert tlock is not None
+[Mon Feb 16 18:23:51.198914 2015] [:error] [pid 20381] AssertionError: 
