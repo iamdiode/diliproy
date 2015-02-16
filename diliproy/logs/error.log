@@ -55,3 +55,13 @@
 [Tue Feb 17 00:24:43.309285 2015] [:error] [pid 1330]   File "/usr/lib/python3.4/threading.py", line 1288, in _shutdown
 [Tue Feb 17 00:24:43.309740 2015] [:error] [pid 1330]     assert tlock is not None
 [Tue Feb 17 00:24:43.309755 2015] [:error] [pid 1330] AssertionError: 
+[Tue Feb 17 00:27:50.198651 2015] [:error] [pid 2298] Exception ignored in: <module 'threading' from '/usr/lib/python3.4/threading.py'>
+[Tue Feb 17 00:27:50.198690 2015] [:error] [pid 2298] Traceback (most recent call last):
+[Tue Feb 17 00:27:50.198699 2015] [:error] [pid 2298]   File "/usr/lib/python3.4/threading.py", line 1288, in _shutdown
+[Tue Feb 17 00:27:50.199128 2015] [:error] [pid 2298]     assert tlock is not None
+[Tue Feb 17 00:27:50.199142 2015] [:error] [pid 2298] AssertionError: 
+[Tue Feb 17 00:27:50.345630 2015] [:error] [pid 2298] Exception ignored in: <module 'threading' from '/usr/lib/python3.4/threading.py'>
+[Tue Feb 17 00:27:50.345671 2015] [:error] [pid 2298] Traceback (most recent call last):
+[Tue Feb 17 00:27:50.345682 2015] [:error] [pid 2298]   File "/usr/lib/python3.4/threading.py", line 1288, in _shutdown
+[Tue Feb 17 00:27:50.346147 2015] [:error] [pid 2298]     assert tlock is not None
+[Tue Feb 17 00:27:50.346160 2015] [:error] [pid 2298] AssertionError: 
