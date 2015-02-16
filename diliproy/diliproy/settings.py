@@ -58,10 +58,10 @@ WSGI_APPLICATION = 'diliproy.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.psycopg2',
+        'ENGINE': 'mysql.connector.django',
         'NAME': 'diliproy',
-	'USER': 'admin',
-	'PASSWORD': 'Caliber@123'
+		'USER': 'dilip',
+		'PASSWORD': 'Caliber@123'
     }
 }
 
@@ -83,3 +83,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_URL = '/media/'
+
+STATICFILES_DIRS = (
+	os.path.join(BASE_DIR, "static"),
+)
+TEMPLATE_DIRS = (
+	os.path.join(BASE_DIR, "templates"),
+)
+STATIC_ROOT = os.path.join(BASE_DIR, "root")
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
