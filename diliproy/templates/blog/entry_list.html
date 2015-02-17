@@ -1,0 +1,13 @@
+{% extends 'blog.html' %}
+
+{% block blog_entries %}
+	{% for object in object_list %}
+		<div class="blog_entry">
+			<div class="row">
+				<h1>{{ object.title }}</h1>
+				<p class="fuzzy_time">Created on <span>{{ object.created }}</span></p>
+				<p>{{ object.body|truncatewords:45 }}</p>
+			</div>
+		</div>
+	{% endfor %}
+{% endblock %}
