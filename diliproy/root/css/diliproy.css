@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Ubuntu);
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Ubuntu', sans-serif;
+	color: #D35400;
+}
+
+a {
+	color: #4183D7;
+	text-decoration: none;
+}
+
+.dark_text {
+	color: #95A5A6;
+}
+
+.bright_text {
+	color: #53B3D9;
+}
+
+.blog_title {
+	font-size: 3em;
+	font-weight: bold;
+	color: #F39C12;
+}
+
+.blog_tag {
+	color: #95A5A6;
+	font-style: italic;
+	font-size: 2em;
+}
+
+footer {
+	background: #D2D7D3;
+	min-height: 50px;
+	border-top: #ABB7B7;
+}
+
+footer p {
+	padding: 15px;
+}
