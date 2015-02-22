@@ -15,7 +15,10 @@ class Category(models.Model):
 		return self.title
 
 	def get_absolute_url(self):
-		return reverse("category", args=[str(self.slug)])
+		return reverse('blogs:category_archive', args=[str(self.slug)])
+
+	class Meta:
+		verbose_name_plural = "Categories"
 
 
 
@@ -26,9 +29,9 @@ class Tag(models.Model):
 		return self.tag
 
 
-class PostManager(models.Manager):
+class BlogPostManager(models.Manager):
 	def all(self):
-		return super(PostManager, self).filter(publish=True)
+		return super(BlogPostManager, self).filter(publish=True)
 
 
 class BlogPost(models.Model):
@@ -38,7 +41,7 @@ class BlogPost(models.Model):
 	category = models.ForeignKey(Category, related_name='categories')
 	tags = models.ManyToManyField(Tag)
 	publish = models.BooleanField(default=True)
-	objects = PostManager()
+	objects = BlogPostManager()
 	created = models.DateTimeField(auto_now_add=True, auto_now=False)
 	updated = models.DateTimeField(auto_now_add=False, auto_now=True)
 
@@ -46,7 +49,7 @@ class BlogPost(models.Model):
 		return self.title
 
 	def get_absolute_url(self):
-		return reverse("post", args=[str(self.slug)])
+		return reverse('blogs:blog_post', args=[str(self.slug)])
 
 	def get_previous_post(self):
 		return self.get_previous_by_created()
