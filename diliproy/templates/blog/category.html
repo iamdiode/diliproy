@@ -14,4 +14,23 @@
 			</p>
 		</div>
 	{% endfor %}
+	<ul class="pagination">
+		{% if posts.has_previous %}
+    	<li>
+	      <a href="?page={{ posts.previous_page_number }}" aria-label="Previous">
+	        <span aria-hidden="true">&laquo;</span>
+	      </a>
+	    </li>
+	    {% endif %}
+	    <li>
+            Page {{ posts.number }} of {{ posts.paginator.num_pages }}.
+        </li>
+	    {% if posts.has_next %}
+	    <li>
+	      <a href="?page={{ posts.next_page_number }}" aria-label="Next">
+	        <span aria-hidden="true">&raquo;</span>
+	      </a>
+	    </li>
+	    {% endif %}
+    </ul>
 {% endblock %}
